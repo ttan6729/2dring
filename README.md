@@ -3,7 +3,9 @@
 2dring is a utility designed for all-pairs correlation coefficient calcualtion in distributed computing (also potential for other all-pairs calculation). It reduces a half communcation cost compares to traditional all-pairs calcualtion scheme and hence sutiable for computing in HPC cluster. <br />
 
 ### Compile
-mpicc -o 2dring 2dring.c -fopenmp 
+download this repository
+cd 2dring
+make
 
 ### Usage
 mpirun -np <numprocs> 2dring <N> [number of vectors] <M> [length of each vector] <output> [path of output] <src> [path of src] <x_d> [x dimension of 2dring] <br />
