@@ -1,5 +1,5 @@
 ## 2dring
-#2dring - What is it?
+# 2dring - What is it?
 2dring is a utility designed for all-pairs correlation coefficient calcualtion in distributed computing (also potential for other all-pairs calculation). It reduces a half communcation cost compares to traditional all-pairs calcualtion scheme and hence sutiable for computing in HPC cluster.
 
 
